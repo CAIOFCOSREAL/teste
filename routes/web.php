@@ -39,6 +39,8 @@ Route::get('/contato', 'ContatoController@contato');
 
 // Route::get($uri, $callback)
 
+Route::get('/teste', 'TesteController@teste');
+
 /* verbo http
 
 get
